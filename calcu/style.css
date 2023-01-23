@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.calc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.screen {
+    width: 495px;
+    height: 150px;
+    border: 3px black solid;
+    background-color: white;
+    font-size: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 100px;
+    gap: 1px;
+    
+}
+.butt {
+    width: 135px;
+    border: 3px black solid;
+    font-size: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+.link {
+    display: flex;
+    justify-content: start;
+    text-decoration: none;
+    color: black;
+    font-size:19px;
+    border: solid black 2px;
+    background-color: rgb(255, 55, 0);
+}
